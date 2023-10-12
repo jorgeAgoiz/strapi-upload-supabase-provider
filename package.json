@@ -1,0 +1,20 @@
+{
+  "name": "strapi-upload-supabase-provider",
+  "version": "1.0.0",
+  "description": "Supabase storage provider for Strapi",
+  "author": "Jorge Agoiz Pedraja",
+  "license": "MIT",
+  "keywords": [
+    "supabase",
+    "storage",
+    "upload",
+    "strapi",
+    "provider",
+    "bucket"
+  ],
+  "main": "lib/index.js",
+  "scripts": {},
+  "dependencies": {
+    "@supabase/storage-js": "2.5.4"
+  }
+}
