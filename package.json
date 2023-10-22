@@ -1,6 +1,6 @@
 {
   "name": "strapi-upload-supabase-provider",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Supabase storage provider for Strapi V4",
   "author": "Jorge Agoiz Pedraja",
   "license": "MIT",
