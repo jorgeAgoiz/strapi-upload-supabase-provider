@@ -19,7 +19,7 @@
   "main": "lib/index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint:staged": "eslint"
+    "lint:staged": "eslint --fix \"lib/*.{js,jsx}\" --max-warnings 0"
   },
   "dependencies": {
     "@supabase/storage-js": "2.5.4"
