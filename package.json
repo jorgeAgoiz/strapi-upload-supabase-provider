@@ -1,6 +1,6 @@
 {
   "name": "strapi-upload-supabase-provider",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Supabase storage provider for Strapi V4",
   "author": "Jorge Agoiz Pedraja",
   "license": "MIT",
@@ -17,14 +17,19 @@
     "url": "git+https://github.com/jorgeAgoiz/strapi-upload-supabase-provider"
   },
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install",
+    "lint:staged": "eslint"
+  },
   "dependencies": {
     "@supabase/storage-js": "2.5.4"
   },
   "devDependencies": {
     "@babel/core": "7.23.2",
     "@babel/eslint-parser": "7.22.15",
-    "eslint": "8.52.0"
+    "eslint": "8.52.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.2"
   },
   "engines": {
     "node": ">=18.x.x <=20.x.x",
